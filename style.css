@@ -2,18 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    /* background-color: rgb(236, 233, 224) */
 }
 
 
 .navbar{ 
-    /* border:1px solid ; */
-    /* margin-bottom: 20px;
-    margin-top: 20px; */
     display: flex;
     width: 100%;
     position: fixed;
-    /* align-items: center; */
     justify-content: space-between;
     padding: 10px;
     background-color: rgb(236, 233, 224);
@@ -62,9 +57,6 @@
 }
 
 .main{
-
-    /* border:1px solid; */
-    /* margin-top: -31.9%; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -78,7 +70,6 @@
     width: 450px;
     height: 40.5vh;
     justify-content: center;
-    /* border: 0.5px rgb(230, 120, 18, 0.941) solid; */
 }
 
 h2{
@@ -107,16 +98,6 @@ h2 span{
     border-radius: 20px;
 
 }
-/* 
-.image :hover{
-    /* width:300px; */
-    /* height: 400px; */
-    /* width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px; */
-
-/* }  */
 
 p{
     font-size: smaller;
@@ -124,7 +105,6 @@ p{
 }
 
 .box-two{
-    /* border: 1px solid; */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -138,31 +118,23 @@ p{
     height: 50vh;
     display: flex;
     border-radius: 100px;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .img-two img{
      width: 100%;
     height: 100%;
     object-fit: cover;
-    /* border-radius: 20px; */
-
 } 
 
 .about-me{
-    /* background-color:rgb(236, 233, 224) ; */
-    /* padding: 100px 100px; */
     margin: 4%;
     width: 450px;
     height: 40.5vh;
     align-items: start;
-    /* border: 0.5px rgb(230, 120, 18, 0.941) solid; */
     margin-bottom: 5%;
 }
 
 .about-me h6{
-    /* font-weight: 600; */
     font-size: 14px;
     font-weight:800;
 }
@@ -188,22 +160,14 @@ p{
 }
 
 .my-service{
-    padding-top: 100px;
-    
-    /* border: 1px solid; */
+    padding-top: 100px; 
     height: 100vh;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: rgb(249, 249, 249); */
-    /* gap: 30px; */
     background-color: rgb(249, 249, 249);
 }
 
 .service-header{
    background-color: rgb(249, 249, 249);
     text-align: center; 
-    /* border: 1px solid;   */
 }
 
 .service-header h2{
@@ -217,7 +181,6 @@ p{
 }
 
 .card-container{
-    /* height: 80vh; */
     background-color: rgb(249, 249, 249);
     display: flex;  
     justify-content: center;
@@ -226,7 +189,6 @@ p{
 }
 
 .card{
-    /* background-color: bisque ; */
     background-color:rgb(236, 233, 224) ;
     width: 300px;
     height: 50vh;
@@ -242,11 +204,9 @@ p{
 
 h5{
     margin-top: 3%;
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     font-size: 13pt;
-    /* color:rgb(230, 120, 18, 0.941); */
 }
 
 .service-p{
@@ -254,20 +214,6 @@ h5{
     padding: 30px;
     margin-top: -10px;
 }
-
-
-/* .project-box{
-     height: 100vh;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: rgb(249, 249, 249); */
-    /* gap: 30px; */
-    /* background-color:rgb(236, 233, 224) ; */
-
-/* } */ 
-
-
 
 .footer-box{
      background-color: rgb(249, 249, 249);
@@ -278,10 +224,6 @@ h5{
      gap: 10%;
 }
 
-/* .footer-box h6{ */
-    /* color: rgb(230, 120, 18, 0.941); */
-/* } */
-
 .footer-box h1{
     color: rgb(230, 120, 18, 0.941);
     font-weight: 800;
@@ -291,16 +233,8 @@ h5{
 .helpbox, .formbox{
     width: 300px;
     height: 50vh;
-    /* border: 1px solid; */
     margin-top: 10%;  
 }
-
-/* .email{
-    /* border: 1px solid; */
-    /* margin-top: 10%;
-    display: ;
-    gap: ;
-/* } */
 
 .email a{
     text-decoration: none;
@@ -313,8 +247,6 @@ h5{
     color: rgb(230, 120, 18, 0.941);
 }
 
-
-
 .formbox button{
      margin-right: 30px;
     padding: 6px 10px;
@@ -323,8 +255,7 @@ h5{
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    font-weight: 550;   
-
+    font-weight: 550;  
 }
 
 
